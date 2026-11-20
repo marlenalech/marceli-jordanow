@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzeria, Lodziarnia & Pączkarnia Marceli | Jordanów Śląski</title>
+  <meta name="description" content="Pizzeria, Lodziarnia & Pączkarnia Marceli w Jordanowie Śląskim (ul. Wrocławska 54). Włoska pizza neapolitańska, świeże pączki i kremowe lody.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pizzeria, Lodziarnia & Pączkarnia Marceli | Jordanów Śląski">
+  <meta property="og:description" content="Włoska pizza neapolitańska, świeże pączki i rzemieślnicze lody w Jordanowie Śląskim (ul. Wrocławska 54).">
+  <meta property="og:image" content="assets/marceli.jpg">
+
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Pizzeria, Lodziarnia & Pączkarnia Marceli",
+        "image": "assets/marceli.jpg",
+        "telephone": "+48886362071",
+        "email": "lodziarniajordanow@gmail.com",
+        "servesCuisine": ["Pizza neapolitańska", "Lody rzemieślnicze", "Pączki"],
+        "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Wrocławska 54",
+        "addressLocality": "Jordanów Śląski",
+        "postalCode": "55-065",
+        "addressCountry": "PL"
+        },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.6",
+        "reviewCount": "130"
+        },
+        "sameAs": [
+        "https://www.facebook.com/lodymarcelijordanow/"
+        ]
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CIEMNE HERO + NAWIGACJA Z CENTRALNYM LOGO -->
+  <div class="hero-wrapper">
+    <header class="header">
+      <div class="container header__inner">
+        <nav class="nav nav--left" id="main-nav">
+          <a href="#o-nas">O NAS</a>
+          <a href="#oferta">OFERTA</a>
+          <a href="#jakosc">JAKOŚĆ</a>
+          <a href="#kontakt">KONTAKT</a>
+        </nav>
+
+        <a href="#" class="brand-badge" aria-label="Marceli Jordanów Śląski">
+          <span>MARCELI</span>
+          <small>PIZZA · LODY · PĄCZKI</small>
+        </a>
+
+        <div class="header__right">
+          <a href="tel:+48886362071" class="header-phone">TEL. 886 362 071</a>
+          <button class="nav-toggle" aria-label="Otwórz menu" aria-expanded="false">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <h1>
+            MARCELI
+            <span>JORDANÓW ŚLĄSKI</span>
+          </h1>
+          <p class="hero__lead">
+            Włoska pizza neapolitańska, świeże pączki i rzemieślnicze lody -
+            wszystko w jednym miejscu, przygotowywane z sercem.
+          </p>
+          <div class="hero__actions">
+            <a href="#oferta" class="btn btn--gold">OFERTA</a>
+            <a href="https://www.facebook.com/lodymarcelijordanow/" target="_blank" rel="noopener" class="social-dot" aria-label="Facebook">f</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <img src="assets/marceli.jpg" alt="Włoska pizza neapolitańska z Pizzerii Marceli">
+        </div>
+      </div>
+
+      <a href="#o-nas" class="scroll-cue" aria-label="Przewiń niżej">⌄</a>
+    </section>
+  </div>
+
+  <main>
+    <!-- SEKCJA O NAS + MANIFEST -->
+    <section id="o-nas" class="section section--beige">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-grid__media">
+            <img src="assets/bakery.jpg" alt="Wypieki, pączki i pizza w lokalu Marceli" loading="lazy">
+          </div>
+          <div class="about-grid__content">
+            <h2>O NAS</h2>
+            <p>
+              <strong>MARCELI</strong> to lokal dobrze znany mieszkańcom Jordanowa Śląskiego z puszystych pączków
+              i kremowych lodów, który otwiera nowy rozdział jako <strong>Pizzeria Marceli</strong> z prawdziwą
+              włoską pizzą neapolitańską. To miejsce na spokojny obiad, aromatyczną kawę i słodką chwilę
+              z rodziną lub przyjaciółmi.
+            </p>
+            <div class="btn-row">
+              <a href="#kontakt" class="btn btn--gold">KONTAKT</a>
+              <a href="#lokalizacja" class="btn btn--outline-dark">LOKALIZACJA</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="manifesto">
+          <p>
+            Nasza oferta zadowoli najbardziej wymagających gości,<br>
+            którzy cenią <span>ŚWIEŻOŚĆ, RZEMIOSŁO I PRAWDZIWY SMAK.</span><br>
+            Do zobaczenia w Marceli.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASYMETRYCZNA SIATKA OFERTY (WZOROWANA NA UKŁADZIE KAFELKÓW) -->
+    <section id="oferta" class="section section--beige section--tight-top">
+      <div class="container">
+        <div class="catalog-grid">
+          <div class="catalog-intro">
+            <span class="kicker">NASZE SPECJALNOŚCI</span>
+            <h2>OFERTA</h2>
+            <p>
+              Każdego dnia łączymy trzy światy smaków. Wpadnij na ciepłą pizzę prosto z pieca,
+              zabierz pudełko świeżych pączków do domu albo wybierz ulubione gałki lodów na spacer
+              po Jordanowie Śląskim.
+            </p>
+          </div>
+
+          <a href="#pizzeria-banner" class="tile-card">
+            <div class="tile-card__img">
+              <img src="assets/pizza.jpg" alt="Pizza neapolitańska" loading="lazy">
+            </div>
+            <div class="tile-card__footer">
+              <div>
+                <h3>PIZZA NEAPOLITAŃSKA</h3>
+                <span>ZOBACZ WIĘCEJ</span>
+              </div>
+              <span class="arrow-circle">›</span>
+            </div>
+          </a>
+
+          <a href="#paczkarnia-banner" class="tile-card">
+            <div class="tile-card__img">
+              <img src="assets/donuts.jpg" alt="Świeże pączki" loading="lazy">
+            </div>
+            <div class="tile-card__footer">
+              <div>
+                <h3>PĄCZKI Z NADZIENIEM</h3>
+                <span>ZOBACZ WIĘCEJ</span>
+              </div>
+              <span class="arrow-circle">›</span>
+            </div>
+          </a>
+
+          <a href="#lodziarnia-banner" class="tile-card">
+            <div class="tile-card__img">
+              <img src="assets/ice.jpg" alt="Lody rzemieślnicze" loading="lazy">
+            </div>
+            <div class="tile-card__footer">
+              <div>
+                <h3>LODY GAŁKOWE</h3>
+                <span>ZOBACZ WIĘCEJ</span>
+              </div>
+              <span class="arrow-circle">›</span>
+            </div>
+          </a>
+
+          <a href="#kontakt" class="tile-card">
+            <div class="tile-card__img">
+              <img src="assets/party.jpg" alt="Zamówienia na wynos i imprezy" loading="lazy">
+            </div>
+            <div class="tile-card__footer">
+              <div>
+                <h3>NA WYNOS I IMPREZY</h3>
+                <span>ZAPYTAJ O ZAMÓWIENIE</span>
+              </div>
+              <span class="arrow-circle">›</span>
+            </div>
+          </a>
+
+          <div class="oferta-doodle" aria-hidden="true">
+            <svg viewBox="0 0 260 260" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <!-- Kawałek pizzy (trójkąt + puszysty brzeg) -->
+            <path d="M52 78 C98 44, 166 44, 212 78 L132 218 Z"/>
+            <!-- Wewnętrzna linia rantu (ciasta) -->
+            <path d="M64 95 C104 68, 160 68, 200 95"/>
+            <!-- Plasterki pepperoni / mozzarelli -->
+            <circle cx="114" cy="112" r="14"/>
+            <circle cx="152" cy="118" r="12"/>
+            <circle cx="131" cy="154" r="13"/>
+            <!-- Listek bazylii pośrodku -->
+            <path d="M126 128 C134 120, 144 123, 142 133 C133 136, 125 133, 126 128 Z"/>
+            <path d="M126 128 L138 131"/>
+            <!-- Drobne oliwki / posypka -->
+            <circle cx="96" cy="134" r="4"/>
+            <circle cx="164" cy="142" r="3.5"/>
+            <circle cx="132" cy="184" r="3.5"/>
+            <!-- Dwie delikatne gałązki / kłosy w tle dla rzemieślniczego klimatu -->
+            <path d="M36 168 Q56 150 74 146" stroke-width="1.3"/>
+            <path d="M188 152 Q208 158 224 174" stroke-width="1.3"/>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SZEROKIE BANERY TEMATYCZNE (PANEL BEŻOWY NA JASNYM TLE) -->
+    <section class="section section--beige section--tight-top">
+      <div class="container stack-banners">
+
+        <!-- BANER 1: PĄCZKARNIA -->
+        <article id="paczkarnia-banner" class="feature-panel">
+          <div class="feature-panel__media">
+            <img src="assets/donut.jpg" alt="Kolorowe i klasyczne pączki z Pączkarni Marceli" loading="lazy">
+          </div>
+          <div class="feature-panel__body">
+            <span class="kicker">NA OSŁODĘ</span>
+            <h2>PĄCZKARNIA</h2>
+            <p>
+              W Marcelim pączkarnia to miejsce, gdzie domowa tradycja spotyka się z nowoczesnymi nadzieniami.
+              Puszyste ciasto, złocista skórka i obfite wnętrze sprawiają, że każdy pączek smakuje wyjątkowo.
+            </p>
+            <p>
+              Od klasycznej róży i aksamitnego budyniu po krem pistacjowy, słony karmel i sezonowe kompozycje -
+              idealne do porannej kawy lub w większym zestawie na spotkanie.
+            </p>
+            <a href="#kontakt" class="panel-link">
+              <span>ZAMÓW ZESTAW PĄCZKÓW</span>
+              <span class="arrow-circle">›</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- BANER 2: PIZZERIA (ODWRÓCONY) -->
+        <article id="pizzeria-banner" class="feature-panel feature-panel--reverse">
+          <div class="feature-panel__body">
+            <span class="kicker">NA CIEPŁO</span>
+            <h2>PIZZERIA</h2>
+            <p>
+              Nowa odsłona lokalu w Jordanowie Śląskim to prawdziwa włoska pizza neapolitańska - lekka,
+              aromatyczna, z puszystymi brzegami i starannie dobranymi składnikami.
+            </p>
+            <p>
+              Serwowana na miejscu w przytulnej atmosferze lub przygotowana na wynos, gdy masz ochotę
+              na włoski wieczór w domu.
+            </p>
+            <a href="tel:+48886362071" class="panel-link">
+              <span>ZADZWOŃ: 886 362 071</span>
+              <span class="arrow-circle">›</span>
+            </a>
+          </div>
+          <div class="feature-panel__media">
+            <img src="assets/pizza_n.jpg" alt="Pizza neapolitańska z Pizzerii Marceli" loading="lazy">
+          </div>
+        </article>
+
+        <!-- BANER 3: LODZIARNIA -->
+        <article id="lodziarnia-banner" class="feature-panel">
+          <div class="feature-panel__media">
+            <img src="assets/ice_cream.jpg" alt="Lody w wafelkach z Lodziarni Marceli" loading="lazy">
+          </div>
+          <div class="feature-panel__body">
+            <span class="kicker">NA OCHŁODĘ</span>
+            <h2>LODZIARNIA</h2>
+            <p>
+              Kremowe lody klasyczne oraz orzeźwiające sorbety owocowe tworzone z myślą o pełni smaku.
+              Każda porcja to świetny pomysł na przystanek podczas spaceru i słodką przyjemność dla małych i dużych.
+            </p>
+            <a href="#lokalizacja" class="panel-link">
+              <span>SPRAWDŹ GODZINY I ADRES</span>
+              <span class="arrow-circle">›</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- KOLAŻ ZDJĘĆ + ŚRODKOWY CIEMNY PAS -->
+    <section class="collage-band">
+      <div class="collage-band__photo">
+        <img src="assets/food.jpg" alt="Świeża pizza z ziołami" loading="lazy">
+      </div>
+      <div class="collage-band__center">
+        <h2>WYRÓŻNIA<br>NAS<br>RÓŻNORODNOŚĆ</h2>
+        <p>
+          Z połączenia włoskiej pizzerii, rzemieślniczej pączkarni i lodziarni powstaje miejsce,
+          w którym każdy znajdzie coś dla siebie - od konkretnego obiadu po słodki deser.
+          Zawsze stawiamy na świeżość, jakość składników i gościnną atmosferę w Jordanowie Śląskim.
+        </p>
+      </div>
+      <div class="collage-band__stack">
+        <img src="assets/wheat.jpg" alt="Słodkie wypieki i desery" loading="lazy">
+        <img src="assets/cookies.jpg" alt="Lody i przekąski" loading="lazy">
+      </div>
+    </section>
+
+    <!-- CIEMNA SEKCJA: JAKOŚĆ TO PODSTAWA -->
+    <section id="jakosc" class="section section--dark">
+      <div class="container quality-grid">
+        <div>
+          <h2 class="quality-title">JAKOŚĆ<br>TO<br>PODSTAWA</h2>
+
+          <div class="quality-list">
+            <div class="quality-item">
+              <div class="quality-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z"/>
+                </svg>
+              </div>
+              <div>
+                <h3>DOPRACOWANE RECEPTURY</h3>
+                <p>Łączymy sprawdzone receptury pączków i lodów z autentycznym włoskim podejściem do pizzy.</p>
+              </div>
+            </div>
+
+            <div class="quality-item">
+              <div class="quality-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <circle cx="12" cy="12" r="9"/>
+                  <path d="M8 12.5L10.8 15.2L16.5 9.5"/>
+                </svg>
+              </div>
+              <div>
+                <h3>STARANNIE DOBRANE SKŁADNIKI</h3>
+                <p>Dbamy o świeżość i wyrazisty smak każdego produktu, który trafia na talerz.</p>
+              </div>
+            </div>
+
+            <div class="quality-item">
+              <div class="quality-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M4 19H20M6 15L12 5L18 15H6Z"/>
+                </svg>
+              </div>
+              <div>
+                <h3>RZEMIEŚLNICZE PODEJŚCIE</h3>
+                <p>Przygotowujemy nasze wypieki i desery z dbałością o każdy detal - od ciasta po nadzienie.</p>
+              </div>
+            </div>
+
+            <div class="quality-item">
+              <div class="quality-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M12 21C12 21 4 14.8 4 9.2C4 6.5 6.1 4.5 8.6 4.5C10.2 4.5 11.4 5.3 12 6.4C12.6 5.3 13.8 4.5 15.4 4.5C17.9 4.5 20 6.5 20 9.2C20 14.8 12 21 12 21Z"/>
+                </svg>
+              </div>
+              <div>
+                <h3>DOCENIONE PRZEZ GOŚCI</h3>
+                <p>Opinie mówią same za siebie.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="quality-visual">
+          <img src="assets/macaroni.jpg" alt="Rzemieślnicze wypieki Marceli" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- LOKALIZACJA I KONTAKT -->
+    <section id="lokalizacja" class="section section--beige">
+      <div class="container location-grid">
+        <div class="location-media">
+          <img src="assets/sweets.jpg" alt="Pączki i słodkości z lokalu Marceli" loading="lazy">
+        </div>
+
+        <div id="kontakt">
+          <h2>NASZ LOKAL</h2>
+          <div class="location-cards">
+            <div class="loc-card">
+              <h3>JORDANÓW ŚLĄSKI</h3>
+              <p>📍 <a href="https://maps.google.com/?q=Wrocławska+54,+55-065+Jordanów+Śląski" target="_blank" rel="noopener">ul. Wrocławska 54, 55-065 Jordanów Śląski</a></p>
+              <p>📞 <a href="tel:+48886362071">+48 886 362 071</a></p>
+              <p>✉️ <a href="mailto:lodziarniajordanow@gmail.com">lodziarniajordanow@gmail.com</a></p>
+            </div>
+            <div class="loc-card">
+              <h3>GODZINY I AKTUALNOŚCI</h3>
+              <p>🕒 Aktualne godziny oraz start nowej pizzerii publikujemy na bieżąco na profilu Facebook.</p>
+              <p>🔗 <a href="https://www.facebook.com/lodymarcelijordanow/" target="_blank" rel="noopener">Facebook: Marceli Jordanów Śląski</a></p>
+            </div>
+          </div>
+
+          <form class="mini-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="558edbd3-e785-45f5-aeda-c7764ef4b662">
+            <input type="hidden" name="subject" value="Nowa wiadomość ze strony Marceli Jordanów Śląski">
+
+            <h3>NAPISZ DO NAS</h3>
+            <div class="mini-form__row">
+                <div>
+                <label for="contact-name" class="sr-only">Imię i nazwisko</label>
+                <input id="contact-name" type="text" name="name" required placeholder="Imię i nazwisko">
+                </div>
+                <div>
+                <label for="contact-info" class="sr-only">Telefon lub e-mail</label>
+                <input id="contact-info" type="text" name="contact" required placeholder="Telefon lub e-mail">
+                </div>
+            </div>
+            <div>
+                <label for="contact-msg" class="sr-only">Treść wiadomości</label>
+                <textarea id="contact-msg" name="message" rows="3" required placeholder="Treść wiadomości (np. pytanie o dostępność lub zamówienie)..."></textarea>
+            </div>
+            <label class="consent">
+                <input type="checkbox" required>
+                <span>Akceptuję <a href="polityka-prywatnosci.html">Politykę prywatności</a> i wyrażam zgodę na kontakt.</span>
+            </label>
+            <button type="submit" class="btn btn--gold">WYŚLIJ WIADOMOŚĆ</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">MARCELI · JORDANÓW ŚLĄSKI</div>
+      <p>© <span id="year">2026</span> Pizzeria &amp; Lodziarnia &amp; Pączkarnia Marceli · ul. Wrocławska 54</p>
+      <a href="polityka-prywatnosci.html">Polityka prywatności</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
